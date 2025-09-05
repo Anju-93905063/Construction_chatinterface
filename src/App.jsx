@@ -16,13 +16,13 @@ function App() {
   const [loader, setLoader] = useState(false);
 
   // ✅ Dark/Light theme state
-  const [darkMode, setDarkMode] = useState("light");
+  const [darkMode, setDarkMode] = useState("dark");
 
   useEffect(() => {
-    if (darkMode === "dark") {
-      document.documentElement.classList.add("dark");
+    if (darkMode === "light") {
+      document.documentElement.classList.add("light");
     } else {
-      document.documentElement.classList.remove("dark");
+      document.documentElement.classList.remove("light");
     }
   }, [darkMode]);
 
