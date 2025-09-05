@@ -1,12 +1,55 @@
-# React + Vite
+# React AI Chat UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React chat interface** that supports AI-powered conversations.  
+Features responsive chat bubbles, dark mode, vertical text centering, and scrollable overflow for long messages.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **User and Assistant Bubbles** – Distinct styling for user and AI messages.  
+- **Dark Mode Support** – Automatically adjusts colors for light and dark themes.  
+- **Responsive Design** – Bubbles adjust dynamically based on content.  
+- **Scrollable Overflow** – Long messages scroll inside the bubble without breaking layout.  
+- **Vertical Text Centering** – Messages are always centered inside the bubble.  
+- **Multiple Answers Support** – Assistant can send multi-part responses.  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Live Demo
+
+You can deploy it quickly using **Vercel** or **Netlify**:  
+
+[Live Demo Link](#)  <!-- Replace with your deployed link -->
+
+---
+
+## Screenshots
+
+### Light Mode  
+
+<img width="959" height="409" alt="image" src="https://github.com/user-attachments/assets/25f0c5da-0c70-456c-a26d-26c78bef2011" />
+
+
+### Dark Mode  
+
+<img width="957" height="410" alt="image" src="https://github.com/user-attachments/assets/9f45bbfe-99b8-41ba-a445-0a75c5ddb921" />
+
+
+---
+
+## Technologies Used
+
+- **React** – For building interactive UI components.  
+- **Tailwind CSS** – For modern, responsive styling.  
+- **JavaScript (ES6+)** – Component logic and text handling.  
+
+---
+
+## Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/<your-username>/react-ai-chat-ui.git
+cd react-ai-chat-ui
