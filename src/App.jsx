@@ -154,7 +154,7 @@ Always stay professional and focused on construction.
           </div>
 
           {/* Fixed Input Box */}
-    <div
+   <div
   className={`w-[80%] px-2 py-1 pr-5 
     flex h-16 items-center fixed bottom-0 left-[20%] 
     ${darkMode === "light" 
@@ -162,24 +162,22 @@ Always stay professional and focused on construction.
       : "bg-zinc-800 text-white border-t border-zinc-700"
     }`}
 >
+  <input
+    type="text"
+    value={question}
+    onKeyDown={isEnter}
+    onChange={(event) => setQuestion(event.target.value)}
+    className="w-full h-full p-3 outline-none"
+    placeholder="Ask about construction (cement, steel, bricks, etc.)"
+  />
+  <button
+    onClick={askQuestion}
+    className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
+  >
+    Ask
+  </button>
+</div>
 
->
-
-            <input
-              type="text"
-              value={question}
-              onKeyDown={isEnter}
-              onChange={(event) => setQuestion(event.target.value)}
-              className="w-full h-full p-3 outline-none"
-              placeholder="Ask about construction (cement, steel, bricks, etc.)"
-            />
-            <button
-              onClick={askQuestion}
-              className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
-            >
-              Ask
-            </button>
-          </div>
         </div>
       </div>
     </div>
