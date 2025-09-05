@@ -132,7 +132,7 @@ Answer questions related only to construction.
       ${darkMode === "dark" ? "bg-zinc-700 text-white" : "bg-green-600 text-white"}`}
     onClick={toggleSidebar}
   >
-    ☰ History
+    ☰ 
   </button>
 )}
 
