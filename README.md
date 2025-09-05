@@ -18,9 +18,9 @@ Features responsive chat bubbles, dark mode, vertical text centering, and scroll
 
 ## Live Demo
 
-You can deploy it quickly using **Vercel** or **Netlify**:  
+You can deploy it quickly using **Vercel**   
 
-[Live Demo Link](#)  <!-- Replace with your deployed link -->
+[Live Demo Link](#)  [<!-- Replace with your deployed link -->](https://construction-chatinterface.vercel.app/)
 
 ---
 
@@ -37,6 +37,13 @@ You can deploy it quickly using **Vercel** or **Netlify**:
 
 
 ---
+### Working
+<img width="935" height="395" alt="image" src="https://github.com/user-attachments/assets/3411272d-eb3c-49d6-b03d-b40313fe942e" />
+
+### Only Construction queries
+
+<img width="794" height="400" alt="image" src="https://github.com/user-attachments/assets/30551036-e327-4b86-b1ce-5a42287e77e6" />
+
 
 ## Technologies Used
 
